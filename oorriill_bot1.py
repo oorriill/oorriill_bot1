@@ -20,4 +20,4 @@ async def on_message(message):
         await message.channel.send(gen_pass(10))
     elif message.content.startswith('!лиза'):
         await message.channel.send("Лиза милашка")
-client.run("MTE1NTE4OTcyMzU2NDg3MTcwMQ.GG-x6o.CIN3NpRJvQzH5SH4HiW7HQjIDcQHg7ypGYtn28")
+client.run("")
