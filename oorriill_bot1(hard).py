@@ -30,4 +30,4 @@ async def add(ctx, left: int, right: int):
 @bot.command()
 async def ping(ctx):
     await ctx.send(f'pong')
-bot.run("MTE1NTE4OTcyMzU2NDg3MTcwMQ.GKQobZ.HK2PDQGctWtn49PUW4eN5zMx7djHD3B33uVSOQ")
+bot.run("")
