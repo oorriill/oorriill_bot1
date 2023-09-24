@@ -15,3 +15,5 @@ def flip_coin():
     else:
         return "РЕШКА"
 
+
+
