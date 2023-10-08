@@ -54,18 +54,13 @@ async def coin(ctx):
 async def elizabeth(ctx):
     await ctx.send(f'Лиза милашка')
 @bot.command()
-async def yasha(ctx):
-    await ctx.send(f'Яша пидор')
-@bot.command()
-async def nekit(ctx):
-    await ctx.send(f'Некит нефор')
-@bot.command()
 async def mem1(ctx):
     lst = os.listdir('images1')
     rand_img = random.choice(lst)
     with open('images1/' + rand_img, 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
+#новая команда#
 @bot.command()
 async def mem(ctx):
     lst = os.listdir('images')
@@ -73,4 +68,5 @@ async def mem(ctx):
     with open('images/' + rand_img, 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
+#новая команда#
 bot.run("")
